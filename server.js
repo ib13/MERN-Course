@@ -13,7 +13,7 @@ mongoose
   .catch(err => console.log(err));
 // To connect our database
 
-app.get("/", (req, res) => res.send("<h1>Hello</h1>"));
+app.get("/", (req, res) => res.send("Hello World"));
 //                                   What to show
 const port = process.env.PORT || 5000;
 // Port to run
